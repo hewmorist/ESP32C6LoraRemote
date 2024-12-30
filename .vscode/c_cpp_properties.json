@@ -8,7 +8,6 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/workspaces/ESP32C6LoraRemote/include",
                 "/workspaces/ESP32C6LoraRemote/src",
                 "/home/vscode/.platformio/packages/framework-espidf/components/riscv/include",
                 "/workspaces/ESP32C6LoraRemote/.pio/build/esp32-c6-devkitm-1/config",
@@ -167,7 +166,6 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/workspaces/ESP32C6LoraRemote/include",
                     "/workspaces/ESP32C6LoraRemote/src",
                     "/home/vscode/.platformio/packages/framework-espidf/components/riscv/include",
                     "/workspaces/ESP32C6LoraRemote/.pio/build/esp32-c6-devkitm-1/config",
