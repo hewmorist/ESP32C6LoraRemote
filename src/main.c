@@ -11,7 +11,7 @@
 #include "freertos/task.h"
 #include "driver/gpio.h"
 #include "esp_log.h"
-#include "FastLED.h"
+//#include "FastLED.h"
 #include "sdkconfig.h"
 
 static const char *TAG = "example";
