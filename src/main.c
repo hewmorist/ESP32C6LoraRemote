@@ -1,11 +1,8 @@
 void app_main() {
 
 
-#include <stdio.h>
 #include "driver/uart.h"
 #include "driver/gpio.h"
-#include "esp_sleep.h"
-#include "FastLED.h"
 
 #define M0 0
 #define M1 1
@@ -24,7 +21,7 @@ void app_main() {
 #define ACKNOWLEDGE 0x25
 
 //define LED
-CRGB leds[NUM_LEDS];
+//CRGB leds[NUM_LEDS];
 
 //Will wake up when "LID" or "DOOR" pins go HIGH
 #define DEEP_SLEEP_GPIO_ANY_HIGH
